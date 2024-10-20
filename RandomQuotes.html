@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Random Quote Generator</title>
     <link rel="stylesheet" href="RandomQuotes.css">
 </head>
 <body>
-    <div class="container">
-       <h1 id="quote"></h1>
-       <p id="author"></p>
+    <div class="quote-container">
+        <div class="quote-text" id="quoteText">Loading...</div>
+        <div class="quote-author" id="quoteAuthor"></div>
+        <button class="quote-button" onclick="getRandomQuote()">Get Another Quote</button>
     </div>
-    <button class="btn" onclick="newQuote()">New Quote</button>
+
     <script src="RandomQuotes.js"></script>
 </body>
 </html>
